@@ -1,0 +1,39 @@
+@font-face {
+font-family: SoccerLeagueCollege;
+    src: url('SoccerLeagueCollege.ttf');
+}
+
+
+:root { 
+    /*VARIAVEIS*/
+   --cor_fundo: #e8caa4;
+   --cor_titulo: #cc2a41;
+   --cor_paragrafo: #351330;
+   --cor_link:#424254; 
+   --cor_principal: ;
+   --fonte_tamanho: 16px;
+   --fonte_principal: SoccerLeagueCollege
+   --fonte: SoccerLeague-italic}
+
+body {
+    background-color: var(--cor_fundo);
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: var(--fonte_principal);}
+
+div {
+    text-align: center;}
+h1 {
+    color:var(--cor_titulo);
+    font-family: SoccerLeagueCollege;
+}
+
+body p {color:var(--cor_paragrafo);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li a {color: var(--cor_link);}
+
+img {width: 150px}
