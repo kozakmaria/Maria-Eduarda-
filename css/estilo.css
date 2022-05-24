@@ -25,15 +25,19 @@ body {
 
 div {
     text-align: center;}
-h1 {
-    color:var(--cor_titulo);
+
+h1 {color:var(--cor_titulo);
     font-family: SoccerLeagueCollege;
-}
+    font-size: 200%;}
 
 body p {color:var(--cor_paragrafo);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 ul li a {color: var(--cor_link);}
 
-img {width: 150px}
+img {width: 150px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: var(--cor_paragrafo);
+    border-style: solid;
+}
